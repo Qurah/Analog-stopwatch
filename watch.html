@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="watch.css">
+    <script src="watch.js"></script>
+</head>
+<body>
+    <div class="clock">
+
+    
+        <div class="outer-clock-face">
+            <div class="marking marking-one"></div>
+<div class="marking marking-two"></div>
+<div class="marking marking-three"></div>
+<div class="marking marking-four"></div>
+
+        </div>
+        <div class="inner-clock-face">
+            <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+        </div>
+
+    </div>
+    <ul id="buttons">
+        <li><button onclick="startTimer()">Start</button></li>
+        <li><button onclick="stopTimer()">Stop</button></li>
+
+        <li><button onclick="resetTimer()">Reset</button></li>
+    </ul>
+</body>
+</html>
